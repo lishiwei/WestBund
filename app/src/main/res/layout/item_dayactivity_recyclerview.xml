@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <import type="com.lishiwei.westbund.Utils.DataBindingUtils"></import>
+        <variable
+            name="utils"
+            type="com.lishiwei.westbund.Utils.DataBindingUtils">
+
+        </variable>
+        <variable
+            name="dayActivity"
+            type="com.lishiwei.model.DayActivity">
+        </variable>
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/news_left_margin"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/exibition_title_top_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_DayActivityOpenTime"
+                android:text=""
+                               android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_DayActivityWeek"
+                android:layout_marginLeft="12dp"
+                />
+
+/*
+            android:background='@{DataBindingUtils.getCorrectActivityStatus(dayActivity.status).equals("1")? @color/colorAccent:@color/content_color}'
+*/
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:gravity="center|start"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:id="@+id/tv_DayActivityStatus"
+android:background="#000000"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_DayActivityGallery"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:id="@+id/tv_DayActivityName"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/exhibition_text"
+            android:textSize="@dimen/exibition_item_textsize" />
+
+        <View
+            android:layout_width="600dp"
+            android:layout_height="1dp"
+            android:background="@color/exhibition_line" />
+
+// android:text='@{DataBindingUtils.getCorrectActivityTime(dayActivity.dateStartStr,dayActivity.openTime,dayActivity.time)}'
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+android:id="@+id/tv_TimeString"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/exhibition_text"
+            android:textSize="@dimen/exibition_item_textsize" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/exhibition_line" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:id="@+id/tv_DayActivityLocation"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/exhibition_text"
+            android:textSize="@dimen/exibition_item_textsize" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/exhibition_line" />
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="start"-->
+            <!--android:id="@+id/tv_DayActivityMail"-->
+            <!--android:textColor="@color/exhibition_text"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textSize="@dimen/exibition_item_textsize" />-->
+
+
+        <!--<View-->
+            <!--android:layout_width="600dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@color/exhibition_line" />-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="start"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:gravity="start"-->
+            <!--android:id="@+id/tv_DayActivityPhone"-->
+            <!--android:textColor="@color/exhibition_text"-->
+            <!--android:textSize="@dimen/exibition_item_textsize" />-->
+
+        <!--<View-->
+            <!--android:layout_width="600dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@color/exhibition_line" />-->
+
+    </LinearLayout>
+</layout>

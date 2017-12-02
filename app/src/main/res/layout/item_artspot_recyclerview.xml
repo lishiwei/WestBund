@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="com.lishiwei.westbund.Utils.DataBindingUtils"></import>
+
+        <variable
+            name="artSpot"
+            type="com.lishiwei.model.ArtSpot"></variable>
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#f2f2f3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="@dimen/news_left_margin"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_NewsRecycler_Time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|end" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/mainColor" />
+
+        <TextView
+            android:id="@+id/tv_ArtistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="@dimen/news_left_margin"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/news_left_margin"
+            android:layout_marginRight="@dimen/news_left_margin"
+            android:layout_marginTop="@dimen/news_left_margin"
+            android:lineSpacingMultiplier="1.5"
+            android:text=""
+            android:textColor="@color/subtitle_color" />
+
+        <ImageView
+            android:id="@+id/iv_ArtSpotback"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp" />
+        <!--app:image="@{DataBindingUtils.getCorrectImageUrl(artSpot.imageUrl)}"-->
+
+        <TextView
+            android:id="@+id/tv_NewsRecycler_Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="@dimen/news_left_margin"
+            android:layout_marginRight="@dimen/news_left_margin"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.5"
+            android:lines="3"
+            android:textColor="@color/subtitle_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:drawableRight="@drawable/right"
+            android:gravity="end"
+            android:text="阅读全文" />
+    </LinearLayout>
+</layout>

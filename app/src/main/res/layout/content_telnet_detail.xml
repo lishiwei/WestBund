@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lishiwei.westbund.Activity.ActivityGalleryDetail">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_gallerychineseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gallery_left_margin"
+                android:text="啊拉里奥画廊"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_galleryEnglishName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gallery_left_margin"
+                android:text="Arario Gallery" />
+
+            <ImageView
+                android:id="@+id/iv_Gallery_Bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/exibition_image_top_margin"
+               />
+
+            <TextView
+                android:id="@+id/tv_Telnet_Author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="#50000000"
+                android:textColor="#50000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_Telnet_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="#50000000"
+                android:textColor="#50000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_Telnet_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="#50000000"
+                android:textColor="#50000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_Telnet_Material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="#50000000"
+                android:textColor="#50000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_Telnet_Size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="#50000000"
+                android:textColor="#50000000"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tv_Telnet_AtAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="#50000000"
+                android:textColor="#50000000"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gallery_left_margin"
+                android:layout_marginTop="20dp"
+                android:text="网址"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gallery_left_margin"
+                android:layout_marginTop="@dimen/gallery_text_top_margin"
+                android:text="上海" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gallery_left_margin"
+                android:layout_marginTop="@dimen/gallery_image_top_margin"
+                android:text="地址"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gallery_left_margin"
+                android:layout_marginTop="@dimen/gallery_text_top_margin"
+                android:text="ROboert" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gallery_left_margin"
+                android:layout_marginTop="@dimen/gallery_image_top_margin"
+                android:text="艺术家"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:id="@+id/text_Artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gallery_left_margin"
+                android:layout_marginTop="@dimen/gallery_image_top_margin"
+                android:text="aaaa\naaaa\naaaa\naaaa\naaaaa\naaaa\naaaa]n" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

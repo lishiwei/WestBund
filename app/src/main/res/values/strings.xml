@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">西岸</string>
+    <string name="home_page">WestBund</string>
+    <string name="Cooperate">WestBund</string>
+    <string name="Message">WestBund</string>
+    <string name="Myself">WestBund</string>
+    <string name="back">返回</string>
+    <string name="gallery">画廊</string>
+    <string name="talent">telnet</string>
+    <string name="xiangChang">xiàn chǎng</string>
+    <string name="gallery_detail">画廊详情</string>
+    <string name="contact">联系人</string>
+    <string name="city">城市</string>
+    <string name="artist">艺术家</string>
+    <string name="gallery_photo">画廊照片</string>
+    <string name="senimar">论坛</string>
+    <string name="daily_activity">每日活动</string>
+    <string name="exhibition_same_period">同期展览</string>
+    <string name="mainvenue">主场馆</string>
+    <string name="newvenue">新馆</string>
+    <string name="demonstration_area">示范区</string>
+    <string name="westbund_area">西岸地区</string>
+    <string name="westbund_picture_album">西岸画册</string>
+    <string name="westbund_picture_album_email">:  点击发邮件至 catalogue@westbundshanghai.com </string>
+    <string name="westbund_brief_introduction">2016年西岸博览会将于11月9日-13日在上海西岸艺术中心举行。
+
+本届博览会吸引到了国内外近31家著名当代画廊的参与，带来它们旗下最活跃和前沿的艺术家及其作品。
+
+届时，西岸地区各个美术馆、画廊、艺术家工作室、建筑师事务所及艺术机构精彩纷呈的艺术活动将与博览会共同掀起一波艺术热潮。</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_activity_gallery_list">ActivityGalleryList</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_activity_splash">ActivitySplash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_activity_news_detail">newsdetails</string>
+    <string name="title_activity_activity_product_detail">ActivityProductDetail</string>
+    <string name="title_activity_activity_about">ActivityAbout</string>
+    <string name="title_activity_activity_art_scene">ActivityArtScene</string>
+    <string name="title_activity_activity_art_spot_details">ActivityArtSpotDetails</string>
+    <string name="shanghai">上海</string>
+    <string name="title_activity_telnet_detail">TelnetDetailActivity</string>
+</resources>
